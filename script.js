@@ -41,8 +41,21 @@ for(i=0; i<=2; i++){      //console.log(i);  //i=0, 1,2
 
 }
 
-
 // Example ---2
+let twoDimentionalArray1 = [
+    [3,5,6,78,8],
+    [2,4,5,7,9],
+    [4,6,8,9,10],
+]
+
+for(i=0; i<=2; i++){
+    for(j=0; j<=4; j++){
+       console.log(twoDimentionalArray1[i][j]);
+    }
+}
+
+
+// Example ---3
 let class9 = [
     [60, 55, 75, 90],
     [30, 29, 89, 80],
