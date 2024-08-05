@@ -107,3 +107,22 @@ for(i=0; i<=2; i++){
     }
 }
 
+// Example ---4
+let class10 = [
+    [80,34,56,78],
+    [34,56,76,54],
+]
+
+for(i=0;i<=1; i++){
+    if(i==0){
+        console.log('Section-A');
+    }
+    if(i==1){
+        console.log('Section-B');
+    }
+
+    for(j=0; j<=3; j++){
+        console.log(class10[1][j]);
+    }
+}
+
